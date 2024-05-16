@@ -1,5 +1,5 @@
 #!/bin/bash
-# install linux
+# install curl -sSL https://raw.githubusercontent.com/julianol1berato/vimrc/main/install.sh | bash
 
 # Update package list and install vim, git, and curl
 sudo apt update
