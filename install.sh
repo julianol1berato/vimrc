@@ -32,4 +32,4 @@ if [ ! -f ~/.vim/autoload/plug.vim ]; then
 fi
 
 # Source the .vimrc and install plugins
-vim +PlugInstall +qall
+vim +'PlugInstall --sync' +qa
