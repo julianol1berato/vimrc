@@ -6,8 +6,8 @@
 # History settings
 HISTCONTROL=ignoredups:ignorespace
 shopt -s histappend
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=50000
 
 # Check the window size after each command
 shopt -s checkwinsize
@@ -56,7 +56,8 @@ fi
 # Some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
+alias lsp='ls -lah --color=auto | sed -e "s/^d/\xF0\x9F\x93\x81 /" -e "s/^-/\xF0\x9F\x93\x84 /"'
+
 
 # Load .bash_aliases if it exists
 if [ -f ~/.bash_aliases ]; then
