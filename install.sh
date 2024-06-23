@@ -58,9 +58,6 @@ set laststatus=2
 " Configurações de arquivo
 set fileencoding=utf-8
 set fileformats=unix,dos,mac
-set backup
-set undofile
-set swapfile
 
 " Configurações de desempenho
 set lazyredraw
